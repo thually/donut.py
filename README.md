@@ -6,6 +6,9 @@ For this project my inspiration was the classic [donut.c](https://www.a1k0n.net/
 
 My goal was to come up with the same donut animation, but on my own. For this I used the same mathematical reasoning illustrated by Andy in the [article](https://www.a1k0n.net/2011/07/20/donut-math.html), but a quite different programming approach than the one he originally used.
 
+![VdeosinttuloHechoconClipchamp2-ezgif com-resize](https://github.com/thually/donut.py/assets/66572840/a05d6b67-c615-4b31-89a9-d26346c4ea82)
+
+
 ## Differences between Andy's and my implementation 💻
 
 * The first difference between Andy's creation and mine, is that I left the donut fixed at the origin, and moved the along the y-axis. Andy leaves the screen fixed in the y = 0 plane and moves the donut on the y-axis, so in his animation when the donut rotates around the axes it looks like it is flying and moving, while mine looks like it is rotating still at its position.
