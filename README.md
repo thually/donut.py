@@ -18,3 +18,7 @@ My goal was to come up with the same donut animation, but on my own. For this I 
    - The second class Stage.py comprises all the logic related to the projection of the donut. This class takes into account a donut object, the position of the screen on which it is to be projected and the position of the observer. With this, the methods of this class manage to project the donut points on a discrete mesh and assigns them an illumination. With this information it is possible to print a frame of the animation through the console.
 
    - Finally, the App.py file is in charge of gathering all the classes and methods to generate the animation. This file contains the animation logic, which consists of rotating the donut on the x-axis and y-axis, and then projecting it on the screen. This process is repeated for each frame of the animation, and is printed on the console.
+
+The source code is very well commented and explains in great detail each of the steps and their involved mathematics to get to the flying donut.
+
+**NOTE:** To run the project, you must have all the necessary packages installed and the Donaut.py, Stage.py and App.py files in the same folder. Then, you must run the App.py file with Python.
